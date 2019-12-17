@@ -42,7 +42,7 @@ public class SlidingImageGameActivity extends AppCompatActivity {
             imageIndex = savedInstanceState.getIntArray("imageIndex");
         } else {
             int start = 15;
-            for (int irand = 0; irand < 2; irand++) {
+            for (int irand = 0; irand < 30; irand++) {
                 int random = randomMove(start);
                 imageIndex[start] = imageIndex[random];
                 imageIndex[random] = 15;
